@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Litti Chokha</title>
+    <!-- Box Icons -->
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo">Litti Chokha</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- Dark Mode -->
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Home  Section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Litti Chokha</h1>
+            <h2>The ultimate taste <br> of BIHAR</h2>
+            <a href="#" class="btn">View Menu</a>
+        </div>
+        <div class="home-img">
+            <img src="https://t3.ftcdn.net/jpg/09/57/69/24/360_F_957692464_yHUHudZ5Y6BAOXw5qF68xkVwwZxrMFQb.jpg"  alt="">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="https://www.awesomecuisine.com/wp-content/uploads/2012/08/Bihar-Food-Delights.png" alt="">
+        </div>
+        <div class="about-text">
+            <span>About Us</span>
+            <h2>We serve almost every  <br>cuisine of BIHAR </h2>
+            <p>Bihar has a rich and diverse culinary tradition influenced by its agricultural produce and cultural heritage. Bihari cuisine is simple yet packed with flavors, making it unique and delicious!</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu" id="menu">
+        <div class="heading">
+            <span>Menu</span>
+            <h2>Various categories of the Delicacies</h2>
+        </div>
+        <div class="menu-container">
+            <!-- Box 1 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://t3.ftcdn.net/jpg/08/72/76/32/360_F_872763238_i9u297u1bhgS56q6GovfwH8AjGBR3ZYN.jpg" alt="">
+                </div>
+                <h2>Staple Foods</h2>
+                <h3 style="text-align: center;">Litti Chokha, Dal Pitha,<br> Khichdi, Bihari Kadhi, etc.</h3>
+                <span>Starting from Rs. 49 /- only</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://assets.zeezest.com/images/PROD_Thekua_1651063504889.jpg" alt="">
+                </div>
+                <h2>Vegetarian Delights</h2>
+                <h3 style="text-align: center;">Thekua, Sattu Paratha,<br> Ghugni, Parwal ki Mithai, etc.</h3>
+                <span>Starting from Rs. 59 /- only</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://static.wixstatic.com/media/e33d1e_ae7ffe76a753469baf08c23308aea514~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/e33d1e_ae7ffe76a753469baf08c23308aea514~mv2.jpg" alt="">
+                </div>
+                <h2>Desserts & Sweets</h2>
+                <h3 style="text-align: center;">Tilkut, Khaja, Malpua,<br> Balushahi, Anarsa, etc.</h3>
+                <span>Starting from Rs. 39 /- only</span>
+                <i class='bx bx-cart-alt'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service -->
+    <section class="services" id="services">
+        <div class="heading">
+            <span>Our Services</span>
+            <h2>We provide best food services</h2>
+        </div>
+
+        <div class="servives-container">
+            <!-- Box 1 -->
+            <div class="s-box">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABPlBMVEU0kNwNR6GZuciXq7lca8CYsbL///+du8cwj90sjt1YZsBbasBfbcGbrLecvMheab6Ut8kAMpoANZucs7BDXrX/uoJYndYAL5lgoNRLmNg5kts/XLMvVKz/1oOEsM1XZcB+rc6qudh1qdCJpcZrpdKLs8sVSqM9iNb/8oCQrseywNyJssxSm9eTscdyiMOCqbxpfMJMe8zEqqfKv6Twzo7904bpy5N3jsRic8GEnsWQrrZqfsKEqrt/mMV6psF5osUAQZ+er9OKnbuSpboAieJGgND0tozrtJGopLTbsJi5qKystbG5uavVxJzz54zp4pLDzuTQ2OmDgZ+0d3jpZyDYbUp4hKyhe430YwBPi8hkiL/abD/qlV+Vkqy0k5TPlH3ilGrZlHTBk4nXr5zF0KStw7HY2psAgOf/9nyeorduZeOtAAAOE0lEQVR4nO2d+XvaRhrHCWBrBiHAxhAknwF80GDHTuwYn6SxEydNk3bbtN1k291222aT//8f2DkkIXTMjMQMWH70/SF96sS2PrzXHO+McrlMmTJlypQpU6ZMmTJlypQpU6ZMmTJlypRSmf1ZP4FiwZPHcNbPoFo31zBnzfoh1AlCcPPq9c0JmPWDqBJ8/vrm5hsT3GFH7ffhyTe3kg9AJCk/KJd7eRsJofnmybfDazk/65WUHyNX18Yq1ls5H/4tNCHsrR592zEOV5/cwoeTIni4WriG0Dxabd3NLA+s1UNsPPjtqnE3jQjM1aeE8M3qm7tJmANHq02YA9dPV4ehhIDUEphiD0buediF5hPqrH4BaLY21tbW2k2QXkj4llSLo2aQAIDWpqZp+Xwe/blhptWLAXzz9OjwSfD5AWzWMJ0tTWvn0mpGCK1c0Aeh+dDDRxgfphYxRNDa8PFhxM1ZP5Y0AdjNBwER4kZaY3FcvgAcQwzJR+lTMAA9qqXfiNBqR/PdASMCEB6AI62l2ogA9jfZfMhN02xDaK3x+JCbpnexEObaGh8wr5kpNSKALU4AppsQTSG4AZhqwtAhWpRSGIcwx6sQXm2mrlqgAIwaooU6aTdthMwhWhhhypw0VgASwHYcE9Ilnhku8qAhmkgFHFOMh0UjpOH5XH3u9LI1m6Vwxhwp2oTipQLF92m9PoeF/nNpTZ8xJAArXMCm8HPC/jnFo6rPTTtDeeZIFaR8rdbrdTqd3m6tRr8Qxlfriz4ltC7rXkDMGL4cq0juIgViqXWO9/bL+nrJVnmwv3fR2Q1Sii+1ofie8/FNF9EJQMTQOR4gKF3Xi67Q/+joa4O9k7wXUnsovFwKm6dBPow4rcmzHYCVSmcP0xXDhSnPTpzQ1GpN0ZQPrUehfFhTqaW0AlYqvWM9ks5DedxDhtTyXSD68cNWiIM6RpxCtrEXKSqdfa/1ysg1l5aWsZaWkMeWR5Cl0n6nsiGe6mE7kg/pVCUblh2Ald7++ghPX1pe2brn1dbWCuIsu4YcbAv/BthlAc7V+2ojEZp4kaKyu+eYr1xc8sF5MFeW3M+geiDICEwmIHJTlYR4kQInmAu9ZPPpKxF0LqRryOqBGOE5h/BSXSDaFbCyO3D4lqKs59XKks1YLQqYETTZgHP1c1WEaAxMK+CJE4DLAnjUkDajXn3B/TUwuk7YhI8UEdIARNorxbCfn7F6wAsii82nzEudIajrobz4C/qqk3nZngr6HBPO1dsKMo27SljplXVqwJh8WMtlAUTALhVzSqrFaJm+0qE1IrYBbTPaCYeFyCc8lQ44WqRwAeNEoFdbOheRS1iPtQQiwgfcZXobMJGHOqIJZ4ToNNq4dgEtDqFkE3qX6Ss9fWJAHyIA/W6vUCj0hqY76+CNaKTOnsb3yXZJkikLF8EI2flmG7fKtgqGUcAyjCun5Q+cMgEFZxZAaG3Ot0o4kAJoI+pFNIIvUDwqo2eRZ4KXDCOKTvGBhaYgPEQ0R6p4ACtnElzUa8Vyz8uHEQt0Dc6KnhrWW6KA73Z2vmNPR/2rhJULUuhlAKJYJJPGYx8hEkGMNGL9XHSKCes7Vn+HOX4N7JPtrpMyIQXw3j1SNNafBwgL9FMPjcT6aYxVyPpOv8UiDC7TV0gQygKkdVEvBwANEmYgxE/xUql4ErW9NPKvg8v01EfLyUYyYVoh2SbopwZZZgKmb5mmXo+53A2s05oVQRi6TL+rywtCKhKK+lXQiIA+oHctuF4/j92zGV0tQvfJKmTCJM1HiYif7geMeGU/F2yeIzKqR315+04R+2QdyT6KRfy0FEg2hrMaCqDVunx0fn7ZNeXxARi+T1bZ1yX7KNZSqBENz9RIdm949D4ZMWEx6XwiSlvFMCMa6s5rRG9U09GMbBNGGFEZIauXsEeiUDrgva2wSDTUbLwwewkrxyUlJrSNuDduREPFvguvl5CMuGVHIRYxou4LRAUm5PQSVkieKSkAtGvixdgUSv4GqL1MzyDEeWaiWvgs8m9wTRzPNYYpmU+kl5CUigkAF/cWI/+OTDEUmlCkmZc66QR5ZuHB/NeRiDjXlE48iHLzjFAzL8mkEzjp4oP5+WhE4qajbGpI7ckEQKiZl04ME2dSAjg//yAiFvG4Rh+MRmwyfRSagq1ME80qFijg/PdR2QZ/fKUryncl1YKwJdiqNVEY3v+KAn7FDkQ8rDEM8T4GIcCmICCd3CcMQxdwIfKfrNhLUsZQbssasMT47LlvwgEN34J0WKOfGT3Z5y6hQBK1CfcTJ5pFvgWdVNOS6qA5vNAj3i+JU2miRCMEaK8ryt8uE2/prZF2C3WA90ijhvwdT3ET1hKm0gVBQJJMq7IJYzipNkxG6CSZBzxASijeLiVIKFoLtc3+djVOU0kAkJFFbS2rIIRdsaNJ+RbM8QhDxyoL4oAzJMTn5lGN4hA+Ow5BXBR2UVWEIl6qrdEazCZE4+pgOY8FqIiQm2lwtznNb0zC+3hc/f398S8uxAJUQ5iDbEKtMtrIAtXoXGobaxxRPItSKcmlnIpPA9ARn3D+e4+jxgVUUw+ZbuoEoKMyY0yz8LUfMU4WpcJjmqpsQMbIO9hNX2ZNgBdtxH/YGTVekqGEeFgof400YvYU1k1fZs4tXMTFhICYUC9LB4yYAWth3fQH7AXvxZMRYhJAsuwt1hw9MWLEcZYXVfYcf/HCQYydZLBWlBH620kij7NsM5LpOGISQEXFggrAbs1eTtS0WuQsmxRE5gTRQYybRYlwlHtSKQByl6NAs71Zq9U2u6zbQnGqYfeTehFjApJ9YCfRAAhMs29acje2yTVyzJ94wG9SWDx2AWO56FgYAtDcQE6F3GqzPd37wLiB6EGMC0jDEB9QGDvtroVmdXUqCuw9LX5MBEj2nnAY+tvotLx4D9vkEnBTvIWWBJA46SC0i0cT7LOUIeKm3D3gxb2YSQaLOul4H6uLOEUriu3jP4ve6o0SbcboR20RTe3eBXCgpp3G6cWIOt0+rVvdoDW80tX005A8U+pFAOLLM6ZwphnkuoZhkL2LyTvY/aI9UdEXFMS7PSMZH2yRbvrn6vra1k8YVzAov8QGmnY3vaGuN3HAumNCU8xnDd0OgufK+ks7TEK67S12OCSuUAB6jnsYZ1L72InITzxjXhOikV5TYPV60gdxaBQ8dpylQNKp1GSzzEmkrg1B/+jwMOzy3knkBuDIiMeye/XpmRL2TS/kriX49sn19ZOkt9mDH34MfifIDYOHWQzSViMvnxa5aQaLzO2OhhB2V5O+kuDD+8ArG2C/EAREflqSf2amxyEkg5oJbQh/+vmX9794vxu2wviQERWce+IA2onGnCAOreMf//n+lw9jzP1wQCefSjicZ59dKzFGM1T2RbUol+4mzKXg+KcfPv5rvNZYEXxYcs8flmscQM09l5C8HgIIwPuxOQoMSTKjUCzqMhIqBdR5QShragF//Nn7+VgMwILxnB7Fn8yK9HglezCDAaXdwzvmAKDLIkSIJNtIOMvNHHBTC6qZOQEWH0XUJyoa9nl8HqCmbJWG6aS2o050pwL95hIPcE3VYiIweYQIsZw8GGkI6jo7BmPcCBafsMklLBhXdPwW/+YI20NLA2YWjXMjmBpCNKQbVIkVk91PUzqrMQHVrnYLeClu5s29qNpXzYgn1WX6DXrpgsm3qXzHgptprsgjbJer9InF7LjlXPjF9lDcZqZ6dQ30OA7qPsIL+5n5d32N7sHS2WPt8S4XVYSsim8gB/WcYD2oOozs+9p0l+9sl2VAZRXChxhNaFz6YmR7UHUNWdQDlOTOPfdqQR3fK8jgU1ghfIQRs0MUgCHnWbZdO5LcOro3EV+ciL9Q9PIxln6VVgifoH+FxgnA8EcAB0UPpPcyyKIHT99j8amuEH5ZwTWM8QD0CxmyWmTcX7o+ur80nE99hRgXsK7862z+AAxo+6BcxZheTnIH7br/DtoQB1VfIYIaGh5GoyB2oGz7xcFgdI/wuk7uEa5F3JY8ApxGhQgK9i+RZxrYPfHtTWIfMbDaefcu6N5u9F3QXr61Wb2EDV9JMbzs9YYtU5TPeyUYh8vlm1qFiHjk8VvUOP+Yf9o2wDfNCjGpYr84ID/1CjGRkrw4YOoVYgIlenHATCpEQsV9cwcBZFeIW8XOeblaOB+vQlzcHkThdzt5+bgVAv76AdySN8eLv9tpxKfxKwT47d/XH/9zC15DA4CiCgGtX3//42IKBLznEL2vwMMnVCE+/PfX33+7BZkWmrHtJ1YhwPPf4IffZx+GID6g6BwCxSn84+PMbQh4m5t+PvE3k2B9mHmeETxl6/LNdg6RRCAWn0CFuG0CoreGEMAUzSFcxbiRIU1zCI/gpihfmuYQYxLMpDNaZZIgsbttYlaIWyURwhRWCI/49R5ViBTzCeTSVFYIrziXTuAKkWYDYrECUaultUJ4BaNXZ7R2uhwUQsuCIU8cZcTUVQj46mWjcXMS0gneDzNi+ioE/BPxIcYvQcSQ+VMKKwT80njZgujPRsiFjYFrF9NYIeDrxgV6aPhN41XIs4+vJSafQ8DrGVr+ZYMcBjhpPA57egCaDzWq/MPEN/vDy7/+ntk6Prgh7oncNJQQr3mbrfZGu9u3EpsBnu98t/Mp6WGRSQUfIzRUK142QrIpFX0b1QQmuP706X+XnxW/dDNaZqPx+gsqGK/VpZDrv961/v48MzeFTVQqGo0/Ff4K0H/3eWdudkkY5k5evbpQ+vsh6Eq9HTn+A/iPfSn4FSkbJmTKlClTpkyZMmXKlClTpkyZMmXKdIf1fzCQiku0ar0MAAAAAElFTkSuQmCC" alt="">
+                <h3>Received Your Order</h3>
+                <p>We would be waiting for your order to be received and for the delivery address confirmation.</p>
+            </div>
+            <!-- Box 2 -->
+            <div class="s-box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKHF_DHqAO0JciJZ22HKpxhOLj-88X2_JFRg&s" alt="">
+                <h3>Started Cooking</h3>
+                <p>Just after your order confirmation, we start cooking the fresh delicacies for you, adding the flavors and making it delicious!.</p>
+            </div>
+            <!-- Box 3 -->
+            <div class="s-box">
+                <img src="data:image/png;base64,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" alt="">
+                <h3>Order Delivered</h3>
+                <p>As soon as we finish cooking and packaging, the delivery guy waiting outside the outlet will deliver it to you ASAP.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect -->
+    <section class="connect">
+        <div class="connect-text">
+            <span>Let's Talk</span>
+            <h2>Connect now</h2>
+        </div>
+        <a href="#" class="btn">Contact Us</a>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-box">
+            <h3>Litti Chokha</h3>
+            <span>Connect With Us</span>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </div>
+        <div class="contact-box">
+            <h3>Menu Links</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </div>
+        <div class="contact-box">
+            <h3>Quick Links</h3>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Privacy Policy">Privacy Policy</a></li>
+            <li><a href="#Disclaimer">Disclaimer</a></li>
+            <li><a href="#Terms Of Use">Terms Of Use</a></li>
+        </div>
+        <div class="contact-box address">
+            <h3>Contact</h3>
+            <i class='bx bxs-map' ><span>147, GBP Crest, Near Bhgao Majra Toll Plaza, Chandigarh, India</span></i>
+            <i class='bx bxs-phone' ><span>+91 9876543210</span></i>
+            <i class='bx bxs-envelope' ><span>magadhdynasty@gmail.com</span></i>
+        </div>
+    </section>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>© All Right Reserved.</p>
+    </div>
+
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Link To JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
